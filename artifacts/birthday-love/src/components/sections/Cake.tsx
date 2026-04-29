@@ -119,7 +119,7 @@ export const Cake = () => {
             <h3 className="text-4xl md:text-6xl font-bold text-glow-gold text-yellow-400 mb-4" style={{ fontFamily: 'var(--font-script)' }}>
               Your wish is my command! ✨
             </h3>
-            <p className="text-xl text-white">Happy Birthday, my everything.</p>
+            <p className="text-xl text-white">Happy Birthday, MY WIFEYYYY.</p>
           </motion.div>
         )}
       </AnimatePresence>

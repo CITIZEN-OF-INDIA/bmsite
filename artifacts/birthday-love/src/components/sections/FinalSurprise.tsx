@@ -47,7 +47,7 @@ export const FinalSurprise = () => {
           onClick={handleReveal}
           className="px-10 py-6 bg-red-600 hover:bg-red-500 text-white rounded-full font-black text-2xl md:text-4xl shadow-[0_0_40px_rgba(220,38,38,0.8)] border border-red-400 animate-pulse-glow uppercase tracking-widest z-10"
         >
-          DON'T CLICK THIS 😳❤️
+          DON'T CLICK THIS 😳❤️ !! BUT I KNOW YOU WILL!! OK GO AHEAD MURGI!
         </motion.button>
       ) : (
         <AnimatePresence>
@@ -62,7 +62,7 @@ export const FinalSurprise = () => {
               transition={{ delay: 0.5, duration: 1 }}
               className="text-5xl md:text-8xl font-black text-glow bg-shine mb-8 leading-tight px-4"
             >
-              You are the best thing <br/> in my life.
+              You are the bestESTTTT OF THEE BESTTTTTTT PERSON <br/> in my life.
             </motion.h1>
             
             <motion.p
@@ -71,7 +71,7 @@ export const FinalSurprise = () => {
               transition={{ delay: 1.5, duration: 1 }}
               className="text-2xl md:text-4xl font-serif text-pink-200 italic max-w-3xl leading-relaxed"
             >
-              Happy Birthday my love. I love you more than words can ever say. 
+              Happy Birthday MERI RASMALAI. I love you more than words can ever say. 
             </motion.p>
 
             <motion.button
@@ -81,7 +81,7 @@ export const FinalSurprise = () => {
               onClick={triggerFireworks}
               className="mt-16 px-6 py-2 border border-white/20 rounded-full text-white/50 hover:text-white hover:bg-white/10 transition-all text-sm"
             >
-              Replay the surprise
+              CLICK AS MANY TIMES AS U WANT!
             </motion.button>
 
             {/* Erupting background hearts */}

@@ -37,7 +37,7 @@ export const LoveLetter = () => {
           className="text-4xl md:text-6xl text-primary mb-10 text-center text-glow"
           style={{ fontFamily: 'var(--font-script)' }}
         >
-          My Dearest...
+          My TRISHAAA... MERI KUCHOOOO..MERI RASMALAI...
         </motion.h2>
 
         <div className="text-white/90">
@@ -46,7 +46,7 @@ export const LoveLetter = () => {
           </LetterLine>
           
           <LetterLine delay={0.4}>
-            I still smile every time I think about our little inside jokes, the way your eyes light up when you're excited, and even how you steal the covers at night. 😂❤️
+            I still smile every time I think about our little inside jokes, the way your eyes light up when you're excited, and even how you ACT when You are caught smiling with me. 😂❤️
           </LetterLine>
 
           <LetterLine delay={0.6}>
@@ -54,7 +54,7 @@ export const LoveLetter = () => {
           </LetterLine>
 
           <LetterLine delay={0.8}>
-            I promise to always be by your side, to hold your hand through every adventure, and to make sure you know just how deeply you are loved. 🥺
+            I promise to always be by your side, to hold your hand through every adventure, and to make sure you know just how deeply you are loved meri jann!! ❤️❤️
           </LetterLine>
 
           <LetterLine delay={1.0}>

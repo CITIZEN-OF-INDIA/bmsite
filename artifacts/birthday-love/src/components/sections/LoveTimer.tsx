@@ -8,7 +8,7 @@ export const LoveTimer = () => {
 
   useEffect(() => {
     // Arbitrary past date: 2022-07-15
-    const startDate = new Date('2022-07-15T00:00:00');
+    const startDate = new Date('2025-12-02T00:00:00');
 
     const updateTimer = () => {
       const now = new Date();

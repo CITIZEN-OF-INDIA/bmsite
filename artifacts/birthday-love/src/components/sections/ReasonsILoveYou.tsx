@@ -12,7 +12,7 @@ const REASONS = [
   "We can talk for hours or sit in silence and it's perfect.",
   "Your passion and drive inspire me to be better.",
   "Because you remember the little details about me.",
-  "You're not just my partner, you're my best friend.",
+  "You're not just my partner, you're my bestestt wifeyyyyyyy.",
   "The way you look at me makes me feel invincible.",
   "Because loving you is the easiest thing I've ever done."
 ];

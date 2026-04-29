@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 
 export const GrandEntry = () => {
   const [text, setText] = useState("");
-  const fullText = "Every moment with you is a celebration...";
+  const fullText = "Every moment with you is a CELEBRATION...";
 
   useEffect(() => {
     let i = 0;
@@ -30,7 +30,7 @@ export const GrandEntry = () => {
         transition={{ duration: 1.5, ease: "easeOut" }}
       >
         <h1 className="text-5xl md:text-7xl lg:text-9xl font-black mb-6 bg-shine text-glow animate-gradient-x px-4 py-2 leading-tight">
-          HAPPY BIRTHDAY<br />MY LOVE
+          HAPPY BIRTHDAY<br />TRISHA
         </h1>
       </motion.div>
 
@@ -55,7 +55,7 @@ export const GrandEntry = () => {
         onClick={scrollToNext}
         className="animate-pulse-glow px-8 py-4 bg-primary text-white rounded-full font-bold text-xl md:text-2xl shadow-[0_0_20px_rgba(255,20,147,0.5)] border border-white/20 backdrop-blur-md transition-all z-10"
       >
-        Click to Enter My Heart 💖
+        Click to VIEW My Heart 💖
       </motion.button>
     </section>
   );
