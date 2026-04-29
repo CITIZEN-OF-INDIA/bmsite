@@ -1,0 +1,219 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@plugin "@tailwindcss/typography";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --color-background: hsl(var(--background));
+  --color-foreground: hsl(var(--foreground));
+  --color-border: hsl(var(--border));
+  --color-input: hsl(var(--input));
+  --color-ring: hsl(var(--ring));
+
+  --color-card: hsl(var(--card));
+  --color-card-foreground: hsl(var(--card-foreground));
+  --color-card-border: hsl(var(--card-border));
+
+  --color-popover: hsl(var(--popover));
+  --color-popover-foreground: hsl(var(--popover-foreground));
+  --color-popover-border: hsl(var(--popover-border));
+
+  --color-primary: hsl(var(--primary));
+  --color-primary-foreground: hsl(var(--primary-foreground));
+  
+  --color-secondary: hsl(var(--secondary));
+  --color-secondary-foreground: hsl(var(--secondary-foreground));
+  
+  --color-muted: hsl(var(--muted));
+  --color-muted-foreground: hsl(var(--muted-foreground));
+  
+  --color-accent: hsl(var(--accent));
+  --color-accent-foreground: hsl(var(--accent-foreground));
+  
+  --color-destructive: hsl(var(--destructive));
+  --color-destructive-foreground: hsl(var(--destructive-foreground));
+
+  --font-sans: 'Inter', sans-serif;
+  --font-serif: 'Playfair Display', serif;
+  --font-script: 'Dancing Script', cursive;
+  --font-handwriting: 'Caveat', cursive;
+
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --radius-2xl: calc(var(--radius) + 8px);
+  --radius-3xl: calc(var(--radius) + 12px);
+}
+
+:root {
+  /* Vibrant Dark Theme */
+  --background: 315 50% 5%; /* Very dark purplish pink */
+  --foreground: 0 0% 100%;
+
+  --border: 327 73% 25%;
+  --input: 327 73% 25%;
+  --ring: 327 100% 54%;
+
+  --card: 315 45% 8%;
+  --card-foreground: 0 0% 100%;
+  --card-border: 327 60% 20%;
+
+  --popover: 315 45% 8%;
+  --popover-foreground: 0 0% 100%;
+  --popover-border: 327 60% 20%;
+
+  --primary: 327 100% 54%; /* Hot Pink */
+  --primary-foreground: 0 0% 100%;
+
+  --secondary: 282 100% 41%; /* Deep Purple */
+  --secondary-foreground: 0 0% 100%;
+
+  --muted: 315 30% 15%;
+  --muted-foreground: 315 20% 70%;
+
+  --accent: 51 100% 50%; /* Gold */
+  --accent-foreground: 0 0% 0%;
+
+  --destructive: 0 84% 60%;
+  --destructive-foreground: 0 0% 100%;
+
+  --radius: 1rem;
+}
+
+.dark {
+  /* Same theme for dark mode since we want a persistently vibrant dark experience */
+  --background: 315 50% 5%;
+  --foreground: 0 0% 100%;
+  --border: 327 73% 25%;
+  --input: 327 73% 25%;
+  --ring: 327 100% 54%;
+  --card: 315 45% 8%;
+  --card-foreground: 0 0% 100%;
+  --card-border: 327 60% 20%;
+  --popover: 315 45% 8%;
+  --popover-foreground: 0 0% 100%;
+  --popover-border: 327 60% 20%;
+  --primary: 327 100% 54%;
+  --primary-foreground: 0 0% 100%;
+  --secondary: 282 100% 41%;
+  --secondary-foreground: 0 0% 100%;
+  --muted: 315 30% 15%;
+  --muted-foreground: 315 20% 70%;
+  --accent: 51 100% 50%;
+  --accent-foreground: 0 0% 0%;
+  --destructive: 0 84% 60%;
+  --destructive-foreground: 0 0% 100%;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground font-sans;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply tracking-tight;
+  }
+}
+
+/* Custom Animations */
+@keyframes gradient-x {
+  0%, 100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+@keyframes pulse-glow {
+  0%, 100% {
+    box-shadow: 0 0 15px 0px rgba(255, 20, 147, 0.4);
+    transform: scale(1);
+  }
+  50% {
+    box-shadow: 0 0 30px 10px rgba(255, 20, 147, 0.7);
+    transform: scale(1.02);
+  }
+}
+
+@keyframes shine {
+  to {
+    background-position: 200% center;
+  }
+}
+
+@keyframes flicker {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  25% { opacity: 0.8; transform: scale(1.1); }
+  50% { opacity: 0.9; transform: scale(0.9); }
+  75% { opacity: 1; transform: scale(1.05); }
+}
+
+.animate-gradient-x {
+  animation: gradient-x 15s ease infinite;
+  background-size: 200% 200%;
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+.animate-pulse-glow {
+  animation: pulse-glow 2s ease-in-out infinite;
+}
+
+.bg-shine {
+  background: linear-gradient(
+    to right,
+    hsl(var(--primary)) 20%,
+    hsl(var(--accent)) 40%,
+    hsl(var(--accent)) 60%,
+    hsl(var(--primary)) 80%
+  );
+  background-size: 200% auto;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  animation: shine 3s linear infinite;
+}
+
+.glass-panel {
+  @apply bg-background/40 backdrop-blur-md border border-white/10 shadow-xl;
+}
+
+.text-glow {
+  text-shadow: 0 0 10px rgba(255, 20, 147, 0.8), 0 0 20px rgba(255, 20, 147, 0.5);
+}
+
+.text-glow-gold {
+  text-shadow: 0 0 10px rgba(255, 215, 0, 0.8), 0 0 20px rgba(255, 215, 0, 0.5);
+}
+
+/* Hide scrollbar but keep functionality */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: hsl(var(--background));
+}
+::-webkit-scrollbar-thumb {
+  background: hsl(var(--primary) / 0.5);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: hsl(var(--primary));
+}

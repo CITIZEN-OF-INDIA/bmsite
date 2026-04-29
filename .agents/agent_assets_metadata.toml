@@ -1,0 +1,62 @@
+uploads = []
+outputs = []
+
+[[generated]]
+id = "xm-ygB913SPHci7NuAMJW"
+uri = "file://artifacts/birthday-love/src/assets/gallery/sunset-silhouettes.png"
+type = "image"
+title = "Sunset silhouette couple"
+
+[[generated]]
+id = "kwBT7PLRqN4fxtFGptkV-"
+uri = "file://artifacts/birthday-love/src/assets/gallery/candlelit-dinner.png"
+type = "image"
+title = "Candlelit dinner"
+
+[[generated]]
+id = "liLpGkgCl2ZvYRlH7Zzpd"
+uri = "file://artifacts/birthday-love/src/assets/gallery/rose-petals.png"
+type = "image"
+title = "Rose petals on bed"
+
+[[generated]]
+id = "FKrfc7vVRa976FtPlM8Ai"
+uri = "file://artifacts/birthday-love/src/assets/gallery/fairy-lights.png"
+type = "image"
+title = "Fairy lights"
+
+[[generated]]
+id = "XINDrXTrUyEqf0UuQQY4a"
+uri = "file://artifacts/birthday-love/src/assets/gallery/beach-sunset.png"
+type = "image"
+title = "Beach sunset"
+
+[[generated]]
+id = "EsT3c6OTUGxmpBzCzsG5D"
+uri = "file://artifacts/birthday-love/src/assets/gallery/hand-in-hand.png"
+type = "image"
+title = "Hands holding"
+
+[[generated]]
+id = "k1gC8dBJYrW7ZlatbntHg"
+uri = "file://artifacts/birthday-love/src/assets/gallery/roses-bouquet.png"
+type = "image"
+title = "Bouquet of roses"
+
+[[generated]]
+id = "i20ZcPmy_5xXWwv6yNOmz"
+uri = "file://artifacts/birthday-love/src/assets/gallery/polaroid.png"
+type = "image"
+title = "Polaroid sunset"
+
+[[generated]]
+id = "AIG32WpVZpLyI4HTvATGW"
+uri = "file://artifacts/birthday-love/src/assets/gallery/picnic.png"
+type = "image"
+title = "Romantic picnic"
+
+[[generated]]
+id = "_VjK1Vz2m-atsIw0GX7k4"
+uri = "file://artifacts/birthday-love/src/assets/gallery/starry-night.png"
+type = "image"
+title = "Starry night romance"

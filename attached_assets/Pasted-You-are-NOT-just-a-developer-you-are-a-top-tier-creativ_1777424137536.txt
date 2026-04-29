@@ -1,0 +1,183 @@
+You are NOT just a developer — you are a top-tier creative frontend engineer and romantic experience designer.
+
+Your job is to build an EXTREMELY VIBRANT, HIGHLY ANIMATED, EMOTIONALLY OVERWHELMING birthday website for my girlfriend using ONLY React + Vite (STRICTLY FRONTEND ONLY — NO BACKEND, NO APIs).
+
+⚠️ NON-NEGOTIABLE RULES:
+
+* React + Vite ONLY
+* No backend, no database, no authentication
+* Must be visually RICH, NOT minimal
+* Must be animation-heavy (no static boring UI)
+* Must feel like a LOVE EXPLOSION on screen
+
+💖 CORE IDEA:
+This is NOT a normal website.
+This is a DIGITAL LOVE EXPERIENCE that should make her smile, laugh, feel special, and slightly overwhelmed (in a good way).
+
+If the website looks simple, YOU FAILED.
+
+---
+
+🎨 DESIGN DIRECTIVE (VERY IMPORTANT):
+
+* Use EXTREMELY VIBRANT COLORS:
+  Hot pink, neon pink, red, purple, gold, soft gradients
+* Background must NEVER feel empty
+* Use:
+
+  * Floating hearts 💖
+  * Sparkles ✨
+  * Balloons 🎈
+  * Cakes 🎂
+  * Love emojis ❤️😍🥰😘
+* Add glowing effects, gradients, shadows everywhere
+* Use animated backgrounds (particles, gradients moving slowly)
+* UI should feel ALIVE
+
+---
+
+✨ ANIMATION REQUIREMENTS (MANDATORY):
+
+* Hearts continuously FLOAT upward across the entire site
+* Random confetti bursts at intervals
+* Buttons must bounce, glow, or pulse
+* Hover effects everywhere (scale, glow, shine)
+* Smooth scroll with fade-in + slide animations
+* Use Framer Motion for rich animations
+
+---
+
+🎉 WEBSITE STRUCTURE:
+
+1. 💥 GRAND ENTRY SCREEN
+
+* Fullscreen intro
+* Animated text:
+  “HAPPY BIRTHDAY MY LOVE ❤️🎉”
+* Typing animation for a romantic message
+* Background: floating hearts + glowing particles
+* Button: “Click to Enter My Heart 💖”
+
+---
+
+2. 💌 LOVE LETTER SECTION
+
+* Long emotional + romantic + slightly funny message
+* Include:
+
+  * Cute teasing lines 😄
+  * Deep emotional lines ❤️
+  * Emoji-rich paragraphs
+* Text should animate line-by-line
+* Use handwritten font style
+
+---
+
+3. 📸 BEAUTIFUL IMAGE GALLERY
+
+* At least 8–12 romantic images
+* Grid or masonry layout
+* Hover zoom + glow
+* Click → fullscreen lightbox with animation
+
+---
+
+4. 🎂 INTERACTIVE BIRTHDAY CAKE
+
+* Big animated cake 🎂
+* Candles flickering 🕯️
+* User clicks candles → flames go off
+* When all candles off:
+
+  * CONFETTI EXPLOSION 🎉
+  * Message: “Your wish is my command ❤️”
+
+---
+
+5. 🎮 FUN ROMANTIC GAMES (IMPORTANT)
+   Include at least TWO:
+
+Game 1: “Catch My Love 💖”
+
+* Hearts float randomly
+* User clicks them → score increases
+* Add cute messages during gameplay
+
+Game 2: “How Well Do You Know Me 😏”
+
+* Fun romantic quiz
+* Funny + cute options
+* End result: “You own my heart 💘”
+
+---
+
+6. 💖 REASONS I LOVE YOU
+
+* Auto-rotating cards:
+  “I love you because…”
+* Each card animated
+* Include sweet + funny reasons
+
+---
+
+7. ⏳ LOVE TIMER
+
+* “Time since I fell for you ❤️”
+* Animated live counter
+
+---
+
+8. 💝 FINAL SURPRISE (VERY IMPORTANT)
+
+* Button:
+  “DON’T CLICK THIS 😳❤️”
+* On click:
+
+  * Screen fills with hearts
+  * Fireworks animation 🎆
+  * Confetti blast 🎉
+  * Final message:
+
+  “You are the best thing in my life ❤️
+  Happy Birthday my love 😘
+  I love you more than words can ever say 💖”
+
+---
+
+🎵 AUDIO (OPTIONAL BUT PREFERRED):
+
+* Soft romantic background music
+* Toggle button (mute/unmute)
+
+---
+
+💻 TECH REQUIREMENTS:
+
+* React + Vite
+* Functional components + hooks
+* Use Framer Motion for animations
+* Clean component structure:
+  Hero, LoveLetter, Gallery, Cake, Games, Surprise, etc.
+
+---
+
+💡 UX DETAILS:
+
+* Smooth scrolling
+* No laggy animations
+* Mobile responsive
+* Everything should feel magical and smooth
+
+---
+
+🔥 FINAL INSTRUCTION:
+
+Do NOT create a simple or minimal website.
+
+This must feel like:
+A FULL-ON ROMANTIC, COLORFUL, ANIMATED CELEBRATION.
+
+If it doesn’t feel emotional, playful, and visually rich,
+then regenerate and improve.
+
+Generate COMPLETE working code.
