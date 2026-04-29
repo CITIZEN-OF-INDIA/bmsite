@@ -69,7 +69,7 @@ export const LoveLetter = () => {
             className="mt-12 text-right"
           >
             <p className="text-2xl md:text-4xl text-primary" style={{ fontFamily: 'var(--font-handwriting)' }}>
-              Yours forever, <br />
+              Your BANDAR forever, SIRF AAPKA BANDAR... CHIPKA LO MUJHE... <br />
               <span className="text-4xl">❤️</span>
             </p>
           </motion.div>

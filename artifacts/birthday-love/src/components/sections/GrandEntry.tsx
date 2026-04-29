@@ -1,22 +1,7 @@
 import { motion } from "framer-motion";
-import { useEffect, useState } from "react";
 
 export const GrandEntry = () => {
-  const [text, setText] = useState("");
   const fullText = "Every moment with you is a CELEBRATION...";
-
-  useEffect(() => {
-    let i = 0;
-    const timer = setInterval(() => {
-      if (i < fullText.length) {
-        setText((prev) => prev + fullText.charAt(i));
-        i++;
-      } else {
-        clearInterval(timer);
-      }
-    }, 100);
-    return () => clearInterval(timer);
-  }, []);
 
   const scrollToNext = () => {
     document.getElementById("love-letter")?.scrollIntoView({ behavior: "smooth" });
@@ -41,8 +26,7 @@ export const GrandEntry = () => {
         className="h-16 mb-12"
       >
         <h2 className="text-2xl md:text-3xl font-serif text-pink-300 italic">
-          {text}
-          <span className="animate-pulse">|</span>
+          {fullText}
         </h2>
       </motion.div>
 
